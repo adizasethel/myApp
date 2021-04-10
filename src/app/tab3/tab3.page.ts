@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { AlertController, NavController} from '@ionic/angular';
+import { MessagePageModule } from '../pages/message/message.module';
+
 
 @Component({
   selector: 'app-tab3',
