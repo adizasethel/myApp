@@ -6,16 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./message.page.scss'],
 })
 export class MessagePage implements OnInit {
-
   message="";
   messages=[];
-
   constructor() { }
 
+  
   send(){
     let messages = {
-    message: this.message
-    
+    message: this.message  
   }
   this.messages.push(messages);
   this.clearField();
@@ -23,7 +21,6 @@ export class MessagePage implements OnInit {
 clearField(){
   this.message="";
 }
-
   ngOnInit() {
   }
 
